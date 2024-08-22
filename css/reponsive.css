@@ -1,0 +1,48 @@
+@media(max-width:650px){
+.header{
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.logo{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo h1{
+    font-size: 40px;
+   
+    
+}
+
+.menu{
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+ .menu li{
+    align-self: center;
+    padding: 33px 0; 
+    
+
+
+
+}
+
+.menu li :last-child{
+    margin-top: 20px;
+}
+
+.menu li a {
+font-size:40px;
+padding: 17px 40px; 
+
+}
+
+
+}
